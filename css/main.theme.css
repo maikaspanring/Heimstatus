@@ -1,0 +1,206 @@
+/* NIKLAS SPANRING
+ *
+ */
+	html {
+		font-family: Arial;
+	}
+
+	body {
+		background-color: #B9B9B9;
+	}
+
+	.logo{
+		margin-right: 26px;
+		margin-top: 7.5px;
+		margin-left: 29px;
+		width: 35px;
+		border-radius: 30px;
+		float: left;
+		background-color: #BBBBBB;
+	}
+
+	#header {
+		background-color: #005212;
+		height: 50px;
+		box-shadow: -10px 10px 20px gray;
+		border-bottom: 1px solid black;
+	}
+
+	#header2 {
+		background-color: #005212;
+		height: 50px;
+		border-bottom: 1px solid black;
+	}
+
+	#footer {
+		background-color: #000000;
+		position: absolute;
+		bottom: 0px;
+		width: 100%;
+		height: 40px;
+	}
+
+	.MainScreen{
+		width: 100%;
+		height: 100%;
+	}
+
+	.MainTable{
+		border-collapse: collapse;
+		box-shadow: 10px 10px 40px gray;
+		margin-top: 30px;
+		margin-left: 20px;
+		background-color: #F9F9F9;
+	}
+
+	.Info-Table{
+		border-collapse: collapse;
+	}
+
+	.Info-Table td{
+		border: 1px solid black;
+	}
+
+	.list_t {
+		width: 90px;
+		height: 60px;
+		border: 1px solid black;
+		text-align: center;
+	}
+
+
+	.LastHeim{
+		width: 800px;
+	}
+
+	.LastStockwerk{
+		height: 500px;
+	}
+
+	.props{
+		width: 120px;
+		border: 1px solid black;
+		vertical-align: top;
+	}
+
+	.HeimScreen{
+		border: 1px solid black;
+    	padding: 10px;
+	}
+
+	.HeimScreenTable{
+		border-collapse: collapse;
+	}
+
+	.HeimScreenTable td{
+		border: 1px solid black;
+	}
+
+	.firstTfield{
+		border-bottom: 1px solid black;
+		border-right: 1px solid black;
+		border-top: 1px solid black;
+		background: #005212;
+		color: #ffffff;
+	}
+
+	.HeimButton{
+		border-top: 1px solid black;
+		border-right: 1px solid black;
+		cursor: pointer;
+		background-color: #BAE0BA;
+		background: #005212;
+		color: #ffffff;
+	}
+
+	.HeimButton:hover{
+		background-color: #000000;
+		background: #03D400;
+		color: #ffffff;
+	}
+
+	.HeimButton:active{
+		background-color: #FFFFFF;
+		background: #03D400;
+		color: #ffffff;
+	}
+
+	.StockwerkButton{
+		border-bottom: 1px solid black;
+		cursor: pointer;
+		background-color: #BAE0BA;
+		background: #005212;
+		color: #ffffff;
+	}
+
+	.StockwerkButton:hover{
+		background-color: #000000;
+		background: #03D400;
+		color: #ffffff;
+	}
+	
+	.StockwerkButton:active{
+		background-color: #FFFFFF;
+		background: #03D400;
+		color: #000000;
+	}
+
+	.HeimStockwerkBild{	
+		position: relative;
+		top: 0px;
+	}
+
+	.main_tab{
+		cursor: pointer;
+		width: 50px;
+		height: 35px;
+		text-align:center;	
+		border: 1px solid #BBBBBB;
+	}
+
+	.main_tab:hover{
+		background-color: #CCCCCC;
+		color: #000000;
+	}
+
+	.main_tab:active{
+		background-color: #FFFFFF;
+		color: #000000;
+	}
+
+	.login{
+		cursor: pointer;
+		position: absolute;
+		float: right;
+		color: #ffffff;
+		height: 18px;
+		border: 1px solid white;
+		top: 10px;
+		right: 6px;
+		padding: 5px;
+	}
+
+	.login:hover{
+		color: #000000;
+		background-color: #BBBBBB;
+	}
+
+	.filter-black-stroke{
+		background-color: rgba(0, 0, 0, 0.65);
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		z-index: 100;
+	}
+
+	.login-box{
+		width: 50%;
+		height: 50%;
+		position: relative;
+		top: 25%;
+		left: 25%;
+		background-color: #fff;
+		border: 1px solid black;
+	}
